@@ -1,13 +1,14 @@
 var LANGUAGES = {
-    "_": { defaultLanguage: "cn", defaultVOLanguage: "cn", defaultSpeed: 20, defaultRandmo: "off" },
-    "cn": {
+    "_": { defaultLanguage: "en", defaultVOLanguage: "ja", defaultSpeed: 20, defaultRandmo: "off" },
+    "en": {
         audioList: [
-            "audio/cn/zbycs.mp3",
+            // TODO audio random weight
+            "audio/en/zbycs.mp3",
         ],
         texts: {
             "page-title": "张博洋吃屎",
             "doc-title": "吃吃吃~",
-            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>烦人的</del>最可爱的张博洋！",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
             "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
             "counter-unit": ["吃", "吃吃吃"],
             "counter-button": ["吃吃吃~", "咕噜！"],
@@ -31,7 +32,259 @@ var LANGUAGES = {
             "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
             "CREDITS:inspiration": "灵感来源"
         },
-        cardImage: "img/card_cn.jpg"
+        cardImage: "img/card_en.png"
+    }, "cn": {
+        audioList: [
+            "audio/cn/zbycs.mp3",
+        ],
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_cn.png"
+    }, "zh-tw": {
+        audioList: [
+            "audio/cn/zbycs.mp3",
+        ],
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_en.png"
+    }, "ja": {
+        audioList: [
+            "audio/ja/zbycs.mp3",
+        ],
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_ja.png"
+    },
+    "kr": {
+        audioList: [
+            // TODO audio random weight
+            "audio/kr/zbycs.mp3",
+        ],
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_kr.png"
+    },
+    "id": {
+        audioList: null,
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_id.png"
+    },
+    "pt": {
+        audioList: null,
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_pt.png"
+          }, "tr": {
+        audioList: null,
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_en.png"
+    }, "vi": {
+        audioList: null,
+        texts: {
+            "page-title": "张博洋吃屎",
+            "doc-title": "吃吃吃~",
+            "page-descriptions": "给张博洋写的小网站，对，就是那个<del>可爱的</del>最爱持矢的张博洋！",
+            "counter-descriptions": ["张博洋已经吃屎~了", "张博洋已经吃了"],
+            "counter-unit": ["吃", "吃吃吃"],
+            "counter-button": ["吃吃吃~", "咕噜！"],
+            "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
+            "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
+            "show-credits-text": "查看感谢页",
+            "repository-desc": "GitHub 仓库",
+            "options-txt-vo-lang": "语音语言",
+            "options-txt-random_speed": "随机速度",
+            "options-txt-speed": "速度",
+            "options-txt-lang": "界面语言",
+            "dialogs-close": "关闭",
+            "dialogs-credits-title": "制作人员名单",
+
+            "CREDITS:main-dev": "主要开发者",
+            "CREDITS:code-contributor": "代码贡献者",
+            "CREDITS:artist": "艺术家",
+            "CREDITS:localization": "本地化贡献者",
+            "CREDITS:localization:Korean": "韩国本地化贡献者",
+            "CREDITS:localization:Japanese": "日本本地化贡献者",
+            "CREDITS:localization:Indonesian": "印度尼西亚本地化贡献者",
+            "CREDITS:inspiration": "灵感来源"
+        },
+        cardImage: "img/card_en.png"
     },
 };
 
@@ -198,9 +451,8 @@ const progress = [0, 1];
     }
 
 
-    // try caching the hertaa1.gif and hertaa2.gif images by calling the tryCacheUrl function
-    cacheStaticObj("img/hertaa1.gif");
-    cacheStaticObj("img/hertaa2.gif");
+    // try caching the hertaa1.png and hertaa2.png images by calling the tryCacheUrl function
+    cacheStaticObj("img/zby.png");
 
     // Define a function that takes an array as an argument and returns a random item from the array
     function randomChoice(myArr) {
@@ -249,7 +501,7 @@ const progress = [0, 1];
         const random = Math.floor(Math.random() * 2) + 1;
         const elem = document.createElement("img");
         let RunSpeed = Math.floor(current_speed);
-        elem.src = cacheStaticObj(`img/hertaa${random}.gif`);
+        elem.src = cacheStaticObj(`img/zby.png`);
         elem.style.position = "absolute";
         elem.style.right = "-500px";
         elem.style.top = counterButton.getClientRects()[0].bottom + scrollY - 430 + "px"
@@ -445,6 +697,9 @@ const progress = [0, 1];
             <td id="setting-item-table-td" style="width: 33.33%">
                 <select id="vo-language-selector" class="mdui-select" mdui-select='{"position": "bottom"}'>
                     <option value="ja">日本語</option>
+                    <option value="cn">中文</option>
+                    <option value="en">English</option>
+                    <option value="kr">한국어</option>
                 </select>
             </td>
         </tr>
