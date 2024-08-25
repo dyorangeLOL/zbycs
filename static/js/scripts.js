@@ -2,7 +2,7 @@ var LANGUAGES = {
     "_": { defaultLanguage: "cn", defaultVOLanguage: "cn", defaultSpeed: 20, defaultRandmo: "off" },
     "cn": {
         audioList: [
-            "audio/cn/1.mp3",
+            "audio/cn/zbycs.mp3",
         ],
         texts: {
             "page-title": "张博洋吃屎",
